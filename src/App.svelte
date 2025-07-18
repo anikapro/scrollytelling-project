@@ -6,18 +6,19 @@
   import InteresectionObserverBasicExample from "./sections/InteresectionObserverBasicExample.svelte";
   import IntersectionObserverAlertExample from "./sections/IntersectionObserverAlertExample.svelte";
   import DisappearingDuckExample from "./sections/DisappearingDuckExample.svelte";
-  import IntersectionObserverSectionCard from "./sections/IntersectionObserverSectionCard.svelte";
+  import IntersectionObserverSectionCard from "./sections/SecondTitleCard.svelte";
   import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
   import TestSection from "./sections/TestSection.svelte";
   import RightAlignedExample2 from "./sections/RightAlignedExample2.svelte";
+  import SecondTitleCard from "./sections/SecondTitleCard.svelte";
+  import ImageExample2 from "./sections/ImageExample2.svelte";
 </script>
 
 <main>
   <TitleSection />
   <RightAlignedExample2 />
   <ImageExample />
-  
-  <InteresectionObserverBasicExample />
-  <IntersectionObserverAlertExample />
+  <SecondTitleCard/>
+  <ImageExample2
   <DisappearingDuckExample />
 </main>

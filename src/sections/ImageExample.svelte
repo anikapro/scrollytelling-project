@@ -35,7 +35,7 @@
              />
              {/if}
             <p>
-                This is a chart from <strong> Vera Institute of Justice </strong> showing the number of people incarcerated in 
+                This is a chart from <strong>  <a href="https://trends.vera.org"> Vera Institute of Justice </a>  </strong> showing the number of people incarcerated in 
                 Alabama from 1975 to 2020, with the red line indicating Alabama, and the gray line representing the entire United States.
             </p>
             {#if picIsVisible}
@@ -46,10 +46,12 @@
             />
             {/if}
             <p>
-                This is a chart from <strong> Vera Institute of Justice </strong> showing the number of people incarcerated in 
+                This is a chart from <strong> <a href="https://trends.vera.org"> Vera Institute of Justice </a> </strong> showing the number of people incarcerated in 
                 Mississippi from 1975 to 2020, with the red line indicating Alabama, and the gray line representing the entire United States.
             </p>
         </div>
+
+ 
 
         {/snippet}
 
@@ -64,6 +66,18 @@
             those two specific states are higher than the national amount, 
             with a larger increase in incarceration overall.
 
+            </ArticleText>
+
+            <ArticleText>
+                From these graphs and the ones before, an increase in incarceration rates is associated with a decrease in 
+                quality of education from high school degree completion rates. 
+
+            </ArticleText>
+
+            <ArticleText>
+                According to the <a href=https://www.ussc.gov/sites/default/files/pdf/research-and-publications/research-publications/2023/20231218_Education.pdf> United States Sentencing Commission</a>, 
+                42.3% of federally sentenced U.S. citizens had a high school degree and 28.4% never graduated high school.
+    
             </ArticleText>
 
 
