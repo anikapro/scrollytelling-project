@@ -32,6 +32,7 @@
                 duckIsVisible = true;
             } else if (entry.intersectionRatio < 0.9) {
                 elem.style.backgroundColor = "#888888";
+
             }
         });
     };
@@ -53,16 +54,27 @@
 <div>
     <Scroller layout="left">
         {#snippet sticky()}
-            <div>
+        <div>
+            <div class="image-container">
                 {#if duckIsVisible}
                     <img
                         class="duck-img"
                         src="duck.png"
                         alt="KWK rubber duck!"
-                        in:fly={{ y: 200, duration: 2000 }}
+                        in:fade
                         out:fade
                     />
+
+                {:else}
+                <img
+                    class="edu-img"
+                    src="EDU07.png"
+                    alt="KWK rubber duck!"
+                    in:fade
+                    out:fade
+                />
                 {/if}
+        </div>
                 <br />
             </div>
         {/snippet}
@@ -130,7 +142,23 @@
 </div>
 
 <style>
+
+    .image-container{
+        position: relative;
+
+    }
     .duck-img {
         margin: 0px auto;
+        position: absolute;
+
+    }
+    .edu-img{
+        margin: 0px auto;
+        grid-area: 1 / 1;
+        width : 360px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
     }
 </style>
