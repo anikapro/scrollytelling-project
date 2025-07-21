@@ -1,4 +1,5 @@
 <script>
+
   import LeftAlignedExample from "./sections/LeftAlignedExample.svelte";
   import RightAlignedExample from "./sections/RightAlignedExample.svelte";
   import ImageExample from "./sections/ImageExample.svelte";
@@ -12,6 +13,8 @@
   import RightAlignedExample2 from "./sections/RightAlignedExample2.svelte";
   import SecondTitleCard from "./sections/SecondTitleCard.svelte";
   import ImageExample2 from "./sections/ImageExample2.svelte";
+  import FundingCuts from "./sections/FundingCuts.svelte";
+  import Narrative from "./sections/Narrative.svelte";
 </script>
 
 <main>
@@ -19,6 +22,7 @@
   <RightAlignedExample2 />
   <ImageExample />
   <SecondTitleCard/>
-  <ImageExample2
-  <DisappearingDuckExample />
+  <ImageExample2/>
+  <FundingCuts />
+  <Narrative />
 </main>

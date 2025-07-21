@@ -59,7 +59,7 @@
         {#snippet scrolly()}
             <ObservedArticleText callback={showPicCallback} {options}>
                 The Black population makes up 14% of the U.S. population, although are disproportionately 
-                incarcerated, where Black people are incarcerated five times the rate of white people. This is 
+                incarcerated, <strong> where Black people are incarcerated five times the rate of white people. </strong> This is 
                 a disparity in the criminal justice system.
             </ObservedArticleText>
 

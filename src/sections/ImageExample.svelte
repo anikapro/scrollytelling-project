@@ -62,15 +62,15 @@
             </ObservedArticleText>
 
             <ArticleText>
-                In these charts, we notice that the number of people incarcerated in 
+                In these charts, we notice that the <strong> number of people incarcerated in 
             those two specific states are higher than the national amount, 
-            with a larger increase in incarceration overall.
+            with a larger increase in incarceration overall. </strong>
 
             </ArticleText>
 
             <ArticleText>
-                From these graphs and the ones before, an increase in incarceration rates is associated with a decrease in 
-                quality of education from high school degree completion rates. 
+                From these specific graphs and the ones before, <strong> an increase in incarceration rates is associated with a decrease in 
+                quality of education from high school degree completion rates. </strong>
 
             </ArticleText>
 
