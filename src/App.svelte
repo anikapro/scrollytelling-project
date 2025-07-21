@@ -10,7 +10,7 @@
   import IntersectionObserverSectionCard from "./sections/SecondTitleCard.svelte";
   import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
   import TestSection from "./sections/TestSection.svelte";
-  import RightAlignedExample2 from "./sections/RightAlignedExample2.svelte";
+  import RightAlignedExample2 from "./sections/EducationDecline.svelte";
   import SecondTitleCard from "./sections/SecondTitleCard.svelte";
   import ImageExample2 from "./sections/ImageExample2.svelte";
   import FundingCuts from "./sections/FundingCuts.svelte";
