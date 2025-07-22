@@ -69,8 +69,8 @@
             </ArticleText>
 
             <ArticleText>
-                As we saw earlier, we looked at the high school degree completion percentages for the Black population specifically, 
-                highlighting the largest impact this association has on Black people in particular. 
+                Based on this data, there seems to be a relationship between education, indicated by graduation rates, 
+                and incarceration for the Black population.
 
             </ArticleText>
 
@@ -86,7 +86,7 @@
         align-items: bottom;
     }
     .state-img {
-        width: 60%;
+        width: 50%;
         margin: 30px auto;
         margin-top: 60px;
     }

@@ -45,8 +45,8 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                <strong>These graphs show both college enrollment nationwide by all races,
-                    and geographically for specifically the Black population. </strong
+                <strong>These graphs show college enrollment rates nationwide
+                    and high school graduation rates for the Black population. </strong
                 >
             </ArticleText>
 

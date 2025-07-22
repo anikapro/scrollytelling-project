@@ -76,16 +76,17 @@
         {/snippet}
 
         {#snippet scrolly()}
-            <ObservedArticleText callback={showPicCallback} {options}>
-                <a href= "https://www.msn.com/en-us/news/us/education-department-funding-freeze-targets-summer-school-and-language-programs-that-are-lifelines-for-families/ar-AA1IJ31B" 
-                > Education Department funding freeze targets summer school and language programs that are lifelines for families </a>
-            </ObservedArticleText>
 
             <ArticleText>
                 <a href= "https://www.wral.com/news/education/attorney-general-jackson-nc-leaders-save-federal-education-funding-july-2025/" 
                 > North Carolina, other states sue over Trump education funding cuts </a>
 
             </ArticleText>
+
+            <ObservedArticleText callback={showPicCallback} {options}>
+                <a href= "https://www.msn.com/en-us/news/us/education-department-funding-freeze-targets-summer-school-and-language-programs-that-are-lifelines-for-families/ar-AA1IJ31B" 
+                > Education Department funding freeze targets summer school and language programs that are lifelines for families </a>
+            </ObservedArticleText>
 
             <ArticleText>
                 <a href= "https://www.ksl.com/article/51345852/federal-budget-cuts-could-impact-utah-after-school-summer-programs"
